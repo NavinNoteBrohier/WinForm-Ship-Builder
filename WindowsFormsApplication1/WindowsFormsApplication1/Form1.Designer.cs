@@ -108,8 +108,8 @@
             this.CockpitCombo.FormattingEnabled = true;
             this.CockpitCombo.Items.AddRange(new object[] {
             "CockpitOne",
-            "CockpitTwo",
-            "CockpitThree"});
+            "CockpitThree",
+            "CockpitTwo"});
             this.CockpitCombo.Location = new System.Drawing.Point(35, 55);
             this.CockpitCombo.Name = "CockpitCombo";
             this.CockpitCombo.Size = new System.Drawing.Size(121, 21);
@@ -227,6 +227,7 @@
             this.SaveButton.TabIndex = 25;
             this.SaveButton.Text = "Save";
             this.SaveButton.UseVisualStyleBackColor = true;
+            this.SaveButton.Click += new System.EventHandler(this.SaveButton_Click);
             // 
             // LoadCombo
             // 
