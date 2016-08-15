@@ -7,3 +7,12 @@ C:\Users\Navin.Brohier\Desktop\Navin Desktop  Files\C#\WPF\Windows Form App 1\Wi
 C:\Users\Navin.Brohier\Desktop\Navin Desktop  Files\C#\WPF\Windows Form App 1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
 C:\Users\Navin.Brohier\Desktop\Navin Desktop  Files\C#\WPF\Windows Form App 1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 C:\Users\Navin.Brohier\Desktop\Navin Desktop  Files\C#\WPF\Windows Form App 1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+G:\GHUB\WinForm-Ship-Builder\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+G:\GHUB\WinForm-Ship-Builder\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+G:\GHUB\WinForm-Ship-Builder\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+G:\GHUB\WinForm-Ship-Builder\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+G:\GHUB\WinForm-Ship-Builder\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+G:\GHUB\WinForm-Ship-Builder\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+G:\GHUB\WinForm-Ship-Builder\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+G:\GHUB\WinForm-Ship-Builder\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+G:\GHUB\WinForm-Ship-Builder\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources

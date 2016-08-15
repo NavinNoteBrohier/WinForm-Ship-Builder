@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Chassisbox = new System.Windows.Forms.PictureBox();
             this.ThrusterBox = new System.Windows.Forms.PictureBox();
             this.CockpitBox = new System.Windows.Forms.PictureBox();
             this.RightWingBox = new System.Windows.Forms.PictureBox();
@@ -44,24 +43,16 @@
             this.RightWingCombo = new System.Windows.Forms.ComboBox();
             this.ThrusterCombo = new System.Windows.Forms.ComboBox();
             this.SaveButton = new System.Windows.Forms.Button();
-            this.LoadCombo = new System.Windows.Forms.ComboBox();
             this.LoadButton = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.Chassisbox)).BeginInit();
+            this.NameBox = new System.Windows.Forms.TextBox();
+            this.Cockpit = new System.Windows.Forms.Label();
+            this.Chassisbox = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.ThrusterBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CockpitBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.RightWingBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.LeftWingBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Chassisbox)).BeginInit();
             this.SuspendLayout();
-            // 
-            // Chassisbox
-            // 
-            this.Chassisbox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Chassisbox.Image = global::WindowsFormsApplication1.Properties.Resources.TestBox;
-            this.Chassisbox.Location = new System.Drawing.Point(600, 250);
-            this.Chassisbox.Name = "Chassisbox";
-            this.Chassisbox.Size = new System.Drawing.Size(100, 100);
-            this.Chassisbox.TabIndex = 7;
-            this.Chassisbox.TabStop = false;
             // 
             // ThrusterBox
             // 
@@ -221,21 +212,13 @@
             // SaveButton
             // 
             this.SaveButton.ForeColor = System.Drawing.Color.Black;
-            this.SaveButton.Location = new System.Drawing.Point(35, 276);
+            this.SaveButton.Location = new System.Drawing.Point(35, 350);
             this.SaveButton.Name = "SaveButton";
             this.SaveButton.Size = new System.Drawing.Size(75, 23);
             this.SaveButton.TabIndex = 25;
             this.SaveButton.Text = "Save";
             this.SaveButton.UseVisualStyleBackColor = true;
             this.SaveButton.Click += new System.EventHandler(this.SaveButton_Click);
-            // 
-            // LoadCombo
-            // 
-            this.LoadCombo.FormattingEnabled = true;
-            this.LoadCombo.Location = new System.Drawing.Point(35, 489);
-            this.LoadCombo.Name = "LoadCombo";
-            this.LoadCombo.Size = new System.Drawing.Size(121, 21);
-            this.LoadCombo.TabIndex = 26;
             // 
             // LoadButton
             // 
@@ -246,13 +229,43 @@
             this.LoadButton.TabIndex = 27;
             this.LoadButton.Text = "Load";
             this.LoadButton.UseVisualStyleBackColor = true;
+            this.LoadButton.Click += new System.EventHandler(this.LoadButton_Click);
+            // 
+            // NameBox
+            // 
+            this.NameBox.Location = new System.Drawing.Point(35, 324);
+            this.NameBox.Name = "NameBox";
+            this.NameBox.Size = new System.Drawing.Size(100, 20);
+            this.NameBox.TabIndex = 28;
+            // 
+            // Cockpit
+            // 
+            this.Cockpit.AutoSize = true;
+            this.Cockpit.ForeColor = System.Drawing.Color.Black;
+            this.Cockpit.Location = new System.Drawing.Point(32, 308);
+            this.Cockpit.Name = "Cockpit";
+            this.Cockpit.Size = new System.Drawing.Size(35, 13);
+            this.Cockpit.TabIndex = 29;
+            this.Cockpit.Text = "Name";
+            // 
+            // Chassisbox
+            // 
+            this.Chassisbox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Chassisbox.Image = global::WindowsFormsApplication1.Properties.Resources.TestBox;
+            this.Chassisbox.Location = new System.Drawing.Point(600, 250);
+            this.Chassisbox.Name = "Chassisbox";
+            this.Chassisbox.Size = new System.Drawing.Size(100, 100);
+            this.Chassisbox.TabIndex = 30;
+            this.Chassisbox.TabStop = false;
             // 
             // Form1
             // 
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(977, 564);
+            this.Controls.Add(this.Chassisbox);
+            this.Controls.Add(this.Cockpit);
+            this.Controls.Add(this.NameBox);
             this.Controls.Add(this.LoadButton);
-            this.Controls.Add(this.LoadCombo);
             this.Controls.Add(this.SaveButton);
             this.Controls.Add(this.ThrusterCombo);
             this.Controls.Add(this.RightWingCombo);
@@ -268,15 +281,14 @@
             this.Controls.Add(this.RightWingBox);
             this.Controls.Add(this.CockpitBox);
             this.Controls.Add(this.ThrusterBox);
-            this.Controls.Add(this.Chassisbox);
             this.ForeColor = System.Drawing.Color.Transparent;
             this.Name = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.Chassisbox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ThrusterBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CockpitBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.RightWingBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.LeftWingBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Chassisbox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -291,7 +303,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.PictureBox Chassisbox;
         private System.Windows.Forms.PictureBox ThrusterBox;
         private System.Windows.Forms.PictureBox CockpitBox;
         private System.Windows.Forms.PictureBox RightWingBox;
@@ -307,8 +318,10 @@
         private System.Windows.Forms.ComboBox RightWingCombo;
         private System.Windows.Forms.ComboBox ThrusterCombo;
         private System.Windows.Forms.Button SaveButton;
-        private System.Windows.Forms.ComboBox LoadCombo;
         private System.Windows.Forms.Button LoadButton;
+        private System.Windows.Forms.TextBox NameBox;
+        private System.Windows.Forms.Label Cockpit;
+        private System.Windows.Forms.PictureBox Chassisbox;
     }
 }
 
