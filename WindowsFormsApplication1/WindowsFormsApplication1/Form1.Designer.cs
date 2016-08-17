@@ -44,8 +44,6 @@
             this.ThrusterCombo = new System.Windows.Forms.ComboBox();
             this.SaveButton = new System.Windows.Forms.Button();
             this.LoadButton = new System.Windows.Forms.Button();
-            this.NameBox = new System.Windows.Forms.TextBox();
-            this.Cockpit = new System.Windows.Forms.Label();
             this.Chassisbox = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.ThrusterBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CockpitBox)).BeginInit();
@@ -231,23 +229,6 @@
             this.LoadButton.UseVisualStyleBackColor = true;
             this.LoadButton.Click += new System.EventHandler(this.LoadButton_Click);
             // 
-            // NameBox
-            // 
-            this.NameBox.Location = new System.Drawing.Point(35, 324);
-            this.NameBox.Name = "NameBox";
-            this.NameBox.Size = new System.Drawing.Size(100, 20);
-            this.NameBox.TabIndex = 28;
-            // 
-            // Cockpit
-            // 
-            this.Cockpit.AutoSize = true;
-            this.Cockpit.ForeColor = System.Drawing.Color.Black;
-            this.Cockpit.Location = new System.Drawing.Point(32, 308);
-            this.Cockpit.Name = "Cockpit";
-            this.Cockpit.Size = new System.Drawing.Size(35, 13);
-            this.Cockpit.TabIndex = 29;
-            this.Cockpit.Text = "Name";
-            // 
             // Chassisbox
             // 
             this.Chassisbox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -263,8 +244,6 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(977, 564);
             this.Controls.Add(this.Chassisbox);
-            this.Controls.Add(this.Cockpit);
-            this.Controls.Add(this.NameBox);
             this.Controls.Add(this.LoadButton);
             this.Controls.Add(this.SaveButton);
             this.Controls.Add(this.ThrusterCombo);
@@ -319,8 +298,6 @@
         private System.Windows.Forms.ComboBox ThrusterCombo;
         private System.Windows.Forms.Button SaveButton;
         private System.Windows.Forms.Button LoadButton;
-        private System.Windows.Forms.TextBox NameBox;
-        private System.Windows.Forms.Label Cockpit;
         private System.Windows.Forms.PictureBox Chassisbox;
     }
 }

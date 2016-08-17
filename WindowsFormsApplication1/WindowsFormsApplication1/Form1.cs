@@ -11,6 +11,10 @@ using System.IO;
 
 namespace WindowsFormsApplication1
 {
+    /// <contact>
+    // Navin Brohier || AIE || navinnotebrohier.github.io || navin.brohier@gmail.com
+    /// <contact>
+
     public partial class Form1 : Form
     {
         struct m_ship
@@ -163,7 +167,7 @@ namespace WindowsFormsApplication1
         {
             FileStream fs = new FileStream("Ship.bin", FileMode.Create);
             BinaryWriter bw = new BinaryWriter(fs);
-
+            
             bw.Write(Current.cockpit);
             bw.Write(Current.Chassis);
             bw.Write(Current.LeftWing);
