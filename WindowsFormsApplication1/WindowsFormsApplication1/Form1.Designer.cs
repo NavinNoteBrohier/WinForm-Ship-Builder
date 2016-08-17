@@ -275,13 +275,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Splitter splitter1;
-        private System.Windows.Forms.TrackBar trackBar1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+
         private System.Windows.Forms.PictureBox ThrusterBox;
         private System.Windows.Forms.PictureBox CockpitBox;
         private System.Windows.Forms.PictureBox RightWingBox;

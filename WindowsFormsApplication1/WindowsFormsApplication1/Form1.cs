@@ -180,22 +180,32 @@ namespace WindowsFormsApplication1
 
         public void LoadFile()
         {
-            FileStream fs = new FileStream("Ship.bin",FileMode.Open);
-            BinaryReader br = new BinaryReader(fs);
-            Current.cockpit = br.ReadInt32();
-            Current.Chassis = br.ReadInt32();
-            Current.LeftWing = br.ReadInt32();
-            Current.RightWing = br.ReadInt32();
-            Current.Thrusters = br.ReadInt32();
+            try
+            {
+                FileStream fs = new FileStream("Ship.bin", FileMode.Open);
+                BinaryReader br = new BinaryReader(fs);
+                Current.cockpit = br.ReadInt32();
+                Current.Chassis = br.ReadInt32();
+                Current.LeftWing = br.ReadInt32();
+                Current.RightWing = br.ReadInt32();
+                Current.Thrusters = br.ReadInt32();
 
-            br.Close();
-            fs.Close();
+                br.Close();
+                fs.Close();
 
-            CockpitCombo.SelectedIndex = Current.cockpit;
-            ChassisCombo.SelectedIndex = Current.Chassis;
-            LeftWingCombo.SelectedIndex = Current.LeftWing;
-            RightWingCombo.SelectedIndex = Current.RightWing;
-            ThrusterCombo.SelectedIndex = Current.Thrusters;
+                CockpitCombo.SelectedIndex = Current.cockpit;
+                ChassisCombo.SelectedIndex = Current.Chassis;
+                LeftWingCombo.SelectedIndex = Current.LeftWing;
+                RightWingCombo.SelectedIndex = Current.RightWing;
+                ThrusterCombo.SelectedIndex = Current.Thrusters;
+            }
+            catch
+            {
+            
+                return;
+            }
+  
+
 
         }
 
@@ -210,5 +220,6 @@ namespace WindowsFormsApplication1
 
         }
 
+     
     }
 }
