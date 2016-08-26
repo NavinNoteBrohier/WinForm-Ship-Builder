@@ -61,18 +61,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -86,49 +86,52 @@
     <None Include="Resources\sun.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\ShipParts\ChassisOne.png" />
+    <None Include="Resources\Images\ShipParts\ChassisOne.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\ShipParts\ChassisThree.png" />
+    <None Include="Resources\Images\ShipParts\ChassisThree.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\ShipParts\ChassisTwo.png" />
+    <None Include="Resources\Images\ShipParts\ChassisTwo.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\ShipParts\CockpitOne.png" />
+    <None Include="Resources\Images\ShipParts\CockpitOne.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\ShipParts\CockpitThree.png" />
+    <None Include="Resources\Images\ShipParts\CockpitThree.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\ShipParts\CockpitTwo.png" />
+    <None Include="Resources\Images\ShipParts\CockpitTwo.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\ShipParts\LeftWingOne.png" />
+    <None Include="Resources\Images\ShipParts\LeftWingOne.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\ShipParts\LeftWingThree.png" />
+    <None Include="Resources\Images\ShipParts\LeftWingThree.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\ShipParts\LeftWingTwo.png" />
+    <None Include="Resources\Images\ShipParts\LeftWingTwo.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\ShipParts\RightWingOne.png" />
+    <None Include="Resources\Images\ShipParts\RightWingOne.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\ShipParts\RightWingThree.png" />
+    <None Include="Resources\Images\ShipParts\RightWingThree.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\ShipParts\RightWingTwo.png" />
+    <None Include="Resources\Images\ShipParts\RightWingTwo.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\ShipParts\Thruster.png" />
+    <None Include="Resources\Images\ShipParts\Thruster.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\ShipParts\ThrusterTwo.png" />
+    <None Include="Resources\Images\ShipParts\ThrusterTwo.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\ShipParts\ThrusterThree.png" />
+    <None Include="Resources\Images\ShipParts\ThrusterThree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Images\ShipParts\WeaponBox.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

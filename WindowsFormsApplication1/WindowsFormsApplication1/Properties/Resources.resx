@@ -124,49 +124,7 @@
   <data name="TestBox" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\testbox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ChassisOne" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\ShipParts\ChassisOne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ChassisThree" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\ShipParts\ChassisThree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ChassisTwo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\ShipParts\ChassisTwo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CockpitOne" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\ShipParts\CockpitOne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CockpitThree" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\ShipParts\CockpitThree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CockpitTwo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\ShipParts\CockpitTwo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LeftWingOne" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\ShipParts\LeftWingOne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LeftWingThree" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\ShipParts\LeftWingThree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LeftWingTwo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\ShipParts\LeftWingTwo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RightWingOne" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\ShipParts\RightWingOne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RightWingThree" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\ShipParts\RightWingThree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RightWingTwo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\ShipParts\RightWingTwo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Thruster" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\ShipParts\Thruster.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ThrusterThree" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\ShipParts\ThrusterThree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ThrusterTwo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\ShipParts\ThrusterTwo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="WeaponBox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Images\ShipParts\WeaponBox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
